@@ -27,14 +27,13 @@ public class Main {
             Statement statement = connection.createStatement();
 
             //3 Execute MYSQL query
-           /* String sql = "insert into employee"
+            String sql = "insert into employee"
                     + "(name, id)"
                     + "values('manish', 20)";
             statement.executeUpdate(sql);
             System.out.println("Insert Complete");
-*/
 
-            String sql  = "select name, id  from employee ";
+            /*String sql  = "select name, id  from employee ";
             ResultSet rs = statement.executeQuery(sql);
 
             while(rs.next()){
@@ -44,7 +43,7 @@ public class Main {
                 System.out.println("id : " +id);
 
             }
-
+*/
         } catch (Exception e){
             e.printStackTrace();
         } finally {

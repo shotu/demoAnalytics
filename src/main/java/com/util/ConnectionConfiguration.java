@@ -12,7 +12,7 @@ public class ConnectionConfiguration {
         Connection connection = null;
         try {
             Class.forName("com.mysql.jdbc.Driver").newInstance();
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/DeliveryApp", "root", "");
+            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/DeliveryApp", "root", "atri90");
             return connection;
         } catch (Exception e) {
             e.printStackTrace();
